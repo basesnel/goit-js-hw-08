@@ -4,7 +4,7 @@ import throttle from 'lodash.throttle';
 const VIDEO_CURRENT_TIME = 'videoplayer-current-time';
 // console.log(localStorage);
 
-document.addEventListener('touchstart', { passive: true });
+// document.addEventListener('touchstart', { passive: true });
 
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
